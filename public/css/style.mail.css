@@ -1,0 +1,23 @@
+/**
+ * PHP Contact Form - Stylesheet for including in the send mail.
+ * https://www.dunweber.com/docs/scripts/kildekoder/kontaktformular.source.php
+ */
+
+body, h3, td {
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+table, td {
+	border: 1px solid #cccccc;
+}
+
+td {
+	vertical-align: top;
+	text-align: left;
+	padding: 5px;
+}

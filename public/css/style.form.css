@@ -1,0 +1,134 @@
+/**
+ * PHP Contact Form - Stylesheet for the form and info messages.
+ * https://www.dunweber.com/docs/scripts/kildekoder/kontaktformular.source.php
+ */
+
+/* Miscellaneous page styles */
+
+body {
+	margin: 20px;
+}
+
+/* Styles for info messages to the user */
+
+#mailInfo {
+	width: 456px;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	background-color: #f7f7f7;
+	border: 2px solid silver;
+}
+
+#mailInfo h3 {
+	font-family: verdana, sans-serif;
+	font-size: 13px;
+	margin: 10px 5px 5px 10px;
+}
+
+#mailInfo p {
+	margin: 5px 5px 10px 10px;
+}
+
+#mailInfo ul {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+#reloadButton {
+	cursor: pointer;
+}
+
+#challengeImg {
+	 border: 1px solid silver;
+}
+
+table.messageTable {
+	border-top: 1px solid silver;
+	border-right: 1px solid silver;
+	margin: 10px;
+}
+
+table.messageTable th, table.messageTable td {
+	border-left: 1px solid silver;
+	border-bottom: 1px solid silver;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+}
+
+td.leftCol {
+	width: 90px;
+}
+
+td.rightCol {
+	min-width: 330px;
+}
+
+.errorText {
+	color: red;
+}
+
+.successText {
+	color: green;
+}
+
+/* Styles for the form */
+
+#contactForm {
+	width: 460px;
+	font-family: arial, sans-serif;
+	margin: 10px 0 10px 0;
+}
+
+#contactForm fieldset {
+	border: 1px solid silver;
+	padding: 5px;
+	margin: 0;
+}
+
+#contactForm legend {
+	font-family: verdana, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #006633;
+	background-color: #f7f7f7;
+	border: 1px solid silver;
+	padding: 2px 5px 2px 5px;
+	margin: 0 0 5px 0;
+}
+
+#contactForm label {
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	width: 110px;
+	float: left;
+	margin-left: 5px;
+}
+
+#contactForm input, #contactForm textarea {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+#contactForm textarea {
+	width: 310px;
+}
+
+#contactForm input.checkboxInput {
+	margin-left: 0px;
+}
+
+#contactForm input.textInput {
+	width: 190px;
+}
+
+#contactForm input.answerInput {
+	width: 150px;
+}
+
+#contactForm input.button {
+	font-size: 12px;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+}
